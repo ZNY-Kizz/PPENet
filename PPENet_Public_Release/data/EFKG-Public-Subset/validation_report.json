@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "privacy_checks": {
+    "no_geographic_relations": true,
+    "no_source_field_names": true,
+    "no_email_addresses": true,
+    "no_phone_like_numbers": true,
+    "event_labels_reencoded": true
+  },
+  "duplicates": {
+    "train": 0,
+    "valid": 0,
+    "test": 0
+  },
+  "split_overlap": {
+    "train_valid": 0,
+    "train_test": 0,
+    "valid_test": 0
+  },
+  "unseen_eval_entities": 0,
+  "unseen_eval_relations": 0,
+  "cold_start_repair_moves": 2
+}

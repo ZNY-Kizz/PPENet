@@ -1,0 +1,35 @@
+{
+  "dataset": "EFKG-Public-Subset-v1.0",
+  "relationship_to_paper_dataset": "Privacy-filtered subset; not structurally identical to the restricted EFKG-v1.0 used for the paper's reported metrics.",
+  "sampling": {
+    "source_events": 15000,
+    "released_events": 1500,
+    "seed": 42
+  },
+  "graph": {
+    "entities": 1608,
+    "relations": 8,
+    "train": 9603,
+    "valid": 1197,
+    "test": 1200,
+    "total": 12000
+  },
+  "relation_distribution": {
+    "0": 1500,
+    "1": 1500,
+    "2": 1500,
+    "3": 1500,
+    "4": 1500,
+    "5": 1500,
+    "6": 1500,
+    "7": 1500
+  },
+  "removed_information": [
+    "all raw incident rows and source linkage",
+    "addresses, roads, organization and administrative codes",
+    "free-text incident descriptions",
+    "province/city entities and geographic relations",
+    "fine-grained place, material, and cause topics",
+    "continuous measurements and timestamps"
+  ]
+}

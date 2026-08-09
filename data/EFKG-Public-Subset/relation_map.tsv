@@ -1,0 +1,9 @@
+relation_id	relation_label
+0	fire_at_place_group
+1	fire_has_area_bin
+2	fire_has_cause_group
+3	fire_has_loss_bin
+4	fire_has_material_group
+5	fire_has_structure
+6	fire_in_area_type
+7	fire_on_holiday
