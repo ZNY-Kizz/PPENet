@@ -215,11 +215,6 @@ Note:
 
 `train_prior_encoder.py`
 
-does **not**:
-
-- Load the test set;
-- Optimize on test data;
-- Use test metrics during training.
 
 
 ---
@@ -361,15 +356,6 @@ During training:
 - Validation data
 
 
-❌ Does not load:
-
-- Test data
-
-
-❌ Does not compute:
-
-- MRR
-- Hits@K
 
 
 Example:
@@ -517,66 +503,4 @@ Results on the public subset:
 
 ---
 
-# 🔬 Reproducibility
 
-
-PPENet provides:
-
-
-✅ Fixed random seeds  
-✅ Data preprocessing scripts  
-✅ NCRL integration  
-✅ Prior generation pipeline  
-✅ Candidate anchor construction  
-✅ Evidence subgraph generation  
-✅ LoRA/QLoRA training  
-✅ Independent evaluation pipeline  
-
-
-Intermediate files:
-
-- JSON files
-- Embeddings
-- Checkpoints
-- Metrics
-
-
-are regenerated locally rather than distributed.
-
-
----
-
-# 📜 Citation
-
-
-The official PPENet citation will be updated after publication.
-
-
-When using:
-
-- DrKGC components;
-- NCRL;
-
-
-please also cite the original works listed in:
-
-
-```text
-THIRD_PARTY_NOTICES.md
-```
-
-
----
-
-# ⭐ Acknowledgement
-
-
-We thank the following open-source projects and datasets:
-
-- RotatE
-- NCRL
-- Qwen
-- DeepSeek
-- Mistral
-- WN18RR
-- FB15k-237
