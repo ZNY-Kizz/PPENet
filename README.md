@@ -90,10 +90,7 @@ The test uses:
 - A dummy causal language model interface
 
 
-It does **not**:
 
-- ❌ Download model weights
-- ❌ Access benchmark test data
 
 
 ---
